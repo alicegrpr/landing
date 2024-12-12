@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap")
+@import url("components/container.css");
+@import url("components/prototype.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+
+body {
+	color: rgb(0,0,0);
+	font-family: "Noto Sans", sans-serif;
+	font-size: 18px;
+	margin-left: 20px;
+	text-align: justify;
+}
+
+h1 {
+	font-family: "Bebas Neue", serif;
+    font-weight: 800;
+	font-size: 200px;
+	text-align: center;
+	white-space: nowrap;
+	margin: 0; 
+}
+
+h2, h3 {
+    font-family: "Bebas Neue", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+	font-weight: bold;
+	margin-left: 5px;
+	font-size: 40px;
+}
+
+a {
+	text-decoration: none;
+}
+
+h2 {
+	margin-top: 30px;
+}
+
+p {
+	line-height: 1.6;
+}
